@@ -83,7 +83,7 @@
                             <i class="bi bi-geo-alt flex-shrink-0"></i>
                             <div>
                                 <h4>Location:</h4>
-                                <p>Jaypee Institute of Information Technology, A 10, A Block, Block A, Industrial Area, Sector 62, Noida, Uttar Pradesh 201309.</p>
+                                <p>Vivekanand Education Society's Institute Of Technology (VESIT), Address: Hashu Adwani Memorial Complex, Collector's Colony, Chembur, Mumbai, Maharashtra 400074.</p>
                             </div>
                         </div><!-- End Info Item -->
 
