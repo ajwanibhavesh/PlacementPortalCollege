@@ -1,0 +1,23 @@
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_FILES["pdf_file"])) {
+    $upload_dir = "uploads/";
+    if (!is_dir($upload_dir)) {
+        mkdir($upload_dir, 0777, true);  // Create 'uploads' folder if not exists
+    }
+
+    $file_name = basename($_FILES["pdf_file"]["name"]);
+    $target_path = $upload_dir . $file_name;
+
+    if (move_uploaded_file($_FILES["pdf_file"]["tmp_name"], $target_path)) {
+        // Call Python script to process PDF
+        $command = escapeshellcmd("python3 ml_api/pdf_extractor.py " . escapeshellarg($target_path));
+        $output = shell_exec($command);
+        echo "<h3>Analysis Results:</h3>";
+        echo "<pre>$output</pre>";
+    } else {
+        echo "Error uploading the file.";
+    }
+} else {
+    echo "No file uploaded.";
+}
+?>
