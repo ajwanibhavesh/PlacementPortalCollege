@@ -1,0 +1,4 @@
+Random Forest Accuracy: 0.0
+SVM Accuracy: 0.0
+Linear Regression MSE: 23726253879.006973
+Decision Tree Accuracy: 0.005

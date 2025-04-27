@@ -33,7 +33,7 @@ require_once("db.php");
 
     <section id="hero-animated" class="hero-animated d-flex align-items-center">
     <div class="container d-flex flex-column justify-content-center align-items-center text-center position-relative" data-aos="zoom-out">
-            <img src="assets/img/hero-carousel/hero-carousel-3.svg" class="img-fluid animated">
+            <img src="assets/img/NEWLOGO.png" class="img-fluid animated">
             <h2>Welcome to <span>VESIT PLACEMENT'S</span></h2>
             <p>For Your Entire Placement Journey.</p>
             <div class="d-flex">
@@ -98,13 +98,10 @@ require_once("db.php");
                 <div class="row g-5">
 
                     <div class="col-lg-8 col-md-6 content d-flex flex-column justify-content-center order-last order-md-first">
-                        <h3>Placement <em>Portal</em> </h3>
-                        <p>The Placement Cell plays a crucial role in locating job
-                            opportunities for under graduates and post graduates passing out from the college by
-                            keeping in touch with reputed firms and industrial establishments.
-                            <br>The placement cell operates round the year to facilitate contacts between companies
-                            and graduates. The number of students placed through the campus interviews is
-                            continuously rising.
+                        <h3>VESIT<em>PLACEMENT</em> </h3>
+                        <p>The VESIT TPC helps  students find job opportunities by staying connected with top companies and industries. 
+<br>The TPC works throughout the year to build links between students and companies. The number of students getting placed through campus interviews is increasing every year.</p>
+
                         </p>
                         <a class="cta-btn align-self-start" href="#">Get Started</a>
                     </div>
@@ -121,26 +118,7 @@ require_once("db.php");
         </section><!-- End Call To Action Section -->
 
 
-        <!-- ======= Clients Section ======= -->
-        <section id="clients" class="clients">
-            <div class="container" data-aos="zoom-out">
-
-                <div class="clients-slider swiper">
-                    <div class="swiper-wrapper align-items-center">
-                        <div class="swiper-slide"><img src="assets/img/clients/client-1.svg" class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
-                    </div>
-                </div>
-
-            </div>
-        </section><!-- End Clients Section -->
-
+       
 
 
         <!-- ======= Features Section ======= -->
@@ -159,20 +137,17 @@ require_once("db.php");
                                     Our Placement Portal serves various objectives:
                                 </p>
                                 <ul>
-                                    <li><i class="bi bi-check-circle-fill"></i> Developing the students to meet the Industries recruitment process.
+                                    <li><i class="bi bi-check-circle-fill"></i> Connect students with suitable job opportunities.
                                     </li>
-                                    <li><i class="bi bi-check-circle-fill"></i> To motivate students to develop Technical knowledge and soft skills in
-                                        terms of career planning, goal setting.
+                                    <li><i class="bi bi-check-circle-fill"></i> Simplify the placement registration and application process.
                                     </li>
-                                    <li><i class="bi bi-check-circle-fill"></i> To produce world-class professionals who have excellent analytical skills,
-                                        communication skills, team building spirit and ability to work in cross cultural
-                                        environment.</li>
+                                    <li><i class="bi bi-check-circle-fill"></i>Provide real-time updates and notifications about placement activities.</li>
 
                                 </ul>
                             </div>
-                            <div class="col-lg-4 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
+                            <!-- <div class="col-lg-4 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
                                 <img src="assets/img/features-1.svg" alt="" class="img-fluid">
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                     <!-- End Tab Content -->
@@ -181,117 +156,7 @@ require_once("db.php");
 
 
 
-                    <section id="statistics" class="content-header">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-12 text-center latest-job margin-bottom-20">
-                                    <h1>Our Statistics</h1>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-3 col-xs-6">
-                                    <!-- small box -->
-                                    <div class="small-box bg-aqua">
-                                        <div class="inner">
-                                            <?php
-                                            $sql = "SELECT * FROM job_post";
-                                            $result = $conn->query($sql);
-                                            if ($result->num_rows > 0) {
-                                                $totalno = $result->num_rows;
-                                            } else {
-                                                $totalno = 0;
-                                            }
-                                            ?>
-                                            <h3>
-                                                <?php echo $totalno; ?>
-                                            </h3>
-
-                                            <p>Total Drives</p>
-                                        </div>
-                                        <div class="icon">
-                                            <i class="ion ion-ios-paper"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- ./col -->
-                                <div class="col-lg-3 col-xs-6">
-                                    <!-- small box -->
-                                    <div class="small-box bg-green">
-                                        <div class="inner">
-                                            <?php
-                                            $sql = "SELECT * FROM company WHERE active='1'";
-                                            $result = $conn->query($sql);
-                                            if ($result->num_rows > 0) {
-                                                $totalno = $result->num_rows;
-                                            } else {
-                                                $totalno = 0;
-                                            }
-                                            ?>
-                                            <h3>
-                                                <?php echo $totalno; ?>
-                                            </h3>
-
-                                            <p>Job Offers</p>
-                                        </div>
-                                        <div class="icon">
-                                            <i class="ion ion-briefcase"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- ./col -->
-                                <div class="col-lg-3 col-xs-6">
-                                    <!-- small box -->
-                                    <div class="small-box bg-yellow">
-                                        <div class="inner">
-                                            <?php
-                                            $sql = "SELECT * FROM users WHERE resume!=''";
-                                            $result = $conn->query($sql);
-                                            if ($result->num_rows > 0) {
-                                                $totalno = $result->num_rows;
-                                            } else {
-                                                $totalno = 0;
-                                            }
-                                            ?>
-                                            <h3>
-                                                <?php echo $totalno; ?>
-                                            </h3>
-
-                                            <p>CV'S/Resume</p>
-                                        </div>
-                                        <div class="icon">
-                                            <i class="ion ion-ios-list"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- ./col -->
-                                <div class="col-lg-3 col-xs-6">
-                                    <!-- small box -->
-                                    <div class="small-box bg-red">
-                                        <div class="inner">
-                                            <?php
-                                            $sql = "SELECT * FROM users WHERE active='1'";
-                                            $result = $conn->query($sql);
-                                            if ($result->num_rows > 0) {
-                                                $totalno = $result->num_rows;
-                                            } else {
-                                                $totalno = 0;
-                                            }
-                                            ?>
-                                            <h3>
-                                                <?php echo $totalno; ?>
-                                            </h3>
-
-                                            <p>Daily Users</p>
-                                        </div>
-                                        <div class="icon">
-                                            <i class="ion ion-person-stalker"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- ./col -->
-                            </div>
-                        </div>
-                    </section>
+                   
                     <!-- ======= F.A.Q Section ======= -->
 
 

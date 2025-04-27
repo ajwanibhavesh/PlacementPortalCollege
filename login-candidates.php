@@ -12,7 +12,7 @@ if (isset($_SESSION['id_user']) || isset($_SESSION['id_company'])) {
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Placement Portal</title>
+  <title>VESIT PLACEMENT'S</title>
   <link href="img/logo.png" rel="icon">
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
@@ -58,7 +58,7 @@ if (isset($_SESSION['id_user']) || isset($_SESSION['id_company'])) {
   <div class="login-box hello">
     <div class="login-logo ">
 
-      <a href="index.php" style="color:black"><b>Placement Portal</b></a>
+      <a href="index.php" style="color:black"><b>VESIT PLACEMENT'S</b></a>
     </div>
     <!-- /.login-logo -->
     <div class="login-box-body bg-blue-200 text-black ">

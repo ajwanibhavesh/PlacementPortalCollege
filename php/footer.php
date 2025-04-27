@@ -7,7 +7,7 @@
 
             <div class="d-flex flex-column align-items-center align-items-lg-start">
                 <div class="copyright">
-                    &copy; Copyright <strong><span>Code Stomp</span></strong>. All Rights Reserved
+                    &copy; Copyright <strong><span>VESIT PLACEMENT'S@2025</span></strong>. All Rights Reserved
                 </div>
                 <div class="credits">
 

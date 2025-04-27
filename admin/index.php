@@ -14,7 +14,7 @@ if (isset($_SESSION['id_admin'])) {
 <head>
 
   
-  <title>Placement Portal</title>
+  <title>VESIT PLACEMENT'S</title>
   <link href="../img/logo.png" rel="icon">
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
@@ -42,7 +42,7 @@ if (isset($_SESSION['id_admin'])) {
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 </head>
 
-<body class="hold-transition login-page bg-gray-800 text-white">
+<body class="hold-transition login-page bg-blue-200 text-black">
 
 
   <?php
@@ -51,11 +51,11 @@ if (isset($_SESSION['id_admin'])) {
 
   <div class="login-box " id="sms">
 
-    <div class="login-logo text-white">
-      <a style="color:white" href="../index.php">Placement Portal</a>
+    <div class="login-logo text-black">
+      <a style="color:black" href="../index.php">VESIT PLACEMENT'S</a>
     </div>
     <!-- /.login-logo -->
-    <div class="bg-gray-900 text-white login-box-body large">
+    <div class="bg-blue-200 text-black login-box-body large">
       <p class="login-box-msg mt-7">Admin Login</p>
       <style>
         .large {
@@ -130,7 +130,7 @@ if (isset($_SESSION['id_admin'])) {
       <div class="pt-1 pb-2">
         <ul class="flex  space-x-16 justify-center text-white my-4 ">
 
-          <li><i class="fa fa-copyright" aria-hidden="true"></i>Placement Portal @ 2022</li>
+          <li><i class="fa fa-copyright" aria-hidden="true"></i>VESIT PLACEMENT'S@ 2025</li>
           <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
           <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
           <li><i class="fa fa-instagram" aria-hidden="true"></i></li>

@@ -37,6 +37,9 @@
                  <!-- <li><a class="nav-link scrollto" href="faq.php">FAQ</a></li> -->
 
                  <li><a class="nav-link scrollto" href="contact.php">Contact</a></li>
+                 <li><a class="nav-link scrollto" href="schedule_interview.php">Interview Scheduling</a></li>
+                 <li><a class="nav-link scrollto" href="trend.php">Trends</a></li>
+                 
                  <!-- <li><a class="nav-link scrollto" href="aboutus.php">FAQ</a></li> -->
 
 
